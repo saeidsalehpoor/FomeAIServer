@@ -18,6 +18,6 @@ you can change the port in .env
 
 you can change the database config in db.js, set it to your own
 
-// run this command in terminal and then open http://localhost:YOUR_PORT/
+// run the below command in terminal and then open http://localhost:YOUR_PORT/
 
 nodemon
