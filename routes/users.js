@@ -106,7 +106,6 @@ router.post("/login", async function(req, res, next) {
     res.json({ token_type: "Bearer", token, expires_in: exp, user: { id: user.id, email: user.email, displayname: user.displayname } });
   } catch (err) {
     console.error("Database error: ", err);
-    res.status(500).json({ error: true, message: "Database error", details: err.message });
   }
 });
 
